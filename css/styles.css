@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+:root{
+  --gradient-full: linear-gradient(180deg, #032E15 0%, #016630 100%);
+  --gradient: linear-gradient(180deg, rgba(3, 46, 21, 0.6) 0%, rgba(1, 102, 48, 0.6) 100%);
+
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.collection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  gap: 2rem;
+}
+.collection .collection-image {
+  width: 35%;
+}
+img {
+  width: 100%;
+}
+
+.stats {
+  background: var(--gradient-full);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  padding: 3rem 2rem;
+  flex-wrap: wrap;
+}
+.stat-box {
+  width: 20%;
+  text-align: center;
+}
+
+.stat-number {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.percent {
+  font-size: 36px;
+  font-weight: 600;
+}
+.stat-box p {
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 12px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+@media screen and (max-width: 768px) {
+  .stat-box {
+    width: 90%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
