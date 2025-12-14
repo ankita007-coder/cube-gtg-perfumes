@@ -1,13 +1,13 @@
 /* GALLERY IMAGES */
 const galleryImages = [
-  "/assets/prod-1.png",
-  "/assets/prod-3.png",
-  "/assets/prod-4.png",
-  "/assets/prod-5.png",
-  "/assets/prod-2.png",
-  "/assets/prod-3.png",
-  "/assets/prod-4.png",
-  "/assets/prod-5.png",
+  "assets/prod-1.png",
+  "assets/prod-3.png",
+  "assets/prod-4.png",
+  "assets/prod-5.png",
+  "assets/prod-2.png",
+  "assets/prod-3.png",
+  "assets/prod-4.png",
+  "assets/prod-5.png",
 ];
 
 let currentIndex = 0;
